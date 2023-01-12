@@ -11,7 +11,7 @@
        name: nginx 
        state: started
        enabled: true 
-   - name: Copy custom index.html
+  - name: Copy custom index.html
     copy:
        src: index.html
        dest: /var/www/html/
